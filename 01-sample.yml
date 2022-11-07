@@ -3,8 +3,8 @@
     - name: Print Hello
       ansible.builtin.debug:
         msg: Hello
-
-- hosts: all
+- name: Demo of Play
+  hosts: all
   tasks:
     - name: Print Bye
       ansible.builtin.debug:
