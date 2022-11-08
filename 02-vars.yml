@@ -30,3 +30,9 @@
     - name: print URL
       ansible.builtin.debug:
         msg: URL == {{ URL }}
+- name: Pre-defined arguments example
+  hosts: all
+  tasks:
+    - name: pre-defined args example
+      ansible.builtin.debug:
+        msg: {{ ansible_hostname }}
