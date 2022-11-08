@@ -33,6 +33,5 @@
 - name: Pre-defined arguments example
   hosts: all
   tasks:
-    - name: pre-defined args example
-      ansible.builtin.debug:
-        msg: {{ ansible_hostname }}
+    ansible.builtin.debug:
+      msg: "{{ ansible_hostname }}"
