@@ -9,9 +9,9 @@
     - name: Print Bye
       ansible.builtin.debug:
         msg: Bye
-
-- name: Facts in ansible
-  hosts: all
-  tasks:
-    ansible.builtin.debug:
-      msg: {{ansible_hostname}}
+#
+#- name: Facts in ansible
+#  hosts: all
+#  tasks:
+#    ansible.builtin.debug:
+#      msg: {{ansible_hostname}}
