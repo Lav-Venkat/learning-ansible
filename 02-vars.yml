@@ -1,6 +1,6 @@
 - name: Demo on variables
   hosts: all
-  var:
+  vars:
     URL: variable.example.com
   tasks:
     - name: Print URL
